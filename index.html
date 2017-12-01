@@ -1,99 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://use.fontawesome.com/8ed53a809a.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <title>Portfolio Page</title>
+
+	<script src="https://use.fontawesome.com/8ed53a809a.js">
+	</script>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+	<title>Portfolio Page</title>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="#about" class="active">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
-    <!--<nav class="container topnav text-center" id="myTopnav">-->
-    <!--    <a href="#about">About</a>-->
-    <!--    <a href="#portfolio">Portfolio</a>-->
-    <!--    <a href="#contact">Contact</a>-->
-    <!--</nav>-->
-    <div id="about" class="container-fluid">
-        <div class="row">
-            <div class="col-xs-8" id="aboutText">
-                <h2 class="animated rubberBand">Geromy Cunningham</h2>
-    <hr>
-                <div class="col-xs-4"><img id="aboutImg" class="img-responsive" src="https://pbs.twimg.com/profile_images/923487386876694529/v4oL2sO2_400x400.jpg" alt="A picture of Geromy Cunningham">
-                    <h3 class="text-center">Software and Web Developer. Hospitality Industry Manager. Video Game Enthusiest. @CareerDevs #SiliconRhode </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                </div>
-            </div>
-        </div>
-            <div class="container-fluid">
-                <div class="row social">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/geromyc/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="https://github.com/geromyc" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/GeromyC" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.instagram.com/geromycunningham/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-    </div>
-    <div id="portfolio" class="container-fluid" align="center">
-        <h2 class="important">Portfolio</h2>
-            <div class="project">
-                <a href="https://github.com/geromyc/Project1-TributePage" target="_blank">
-                <img class="placeholder" src="http://assets.nydailynews.com/polopoly_fs/1.2489331.1452205328!/img/httpImage/image.jpg_gen/derivatives/article_750/michael-jackson-estate.jpg">
-                <br>Michael Jackson Tribute Page.</a>
-            </div>
-            <div class="project">
-                <a href="https://github.com/geromyc/quoteGenerator">
-                <img class="placeholder" src="http://www.facegarage.com/content/defaults/instagramQuotes.jpg"></div>
-                <br>Random Quote Generator.</a>
-            <div class="project"><img class="placeholder" src="http://via.placeholder.com/750x499"></div>
-            <div class="project"><img class="placeholder" src="http://via.placeholder.com/750x499"></div>
-            <div class="project"><img class="placeholder" src="http://via.placeholder.com/750x499"></div>
-    </div>
-    <div id="contact" class="well">
-        <h1 class="important">Contact</h1>
-            <div class="container-fluid">
-                <h2>Ask a question</h2>
-                <form action="mailto:geromycunningham@intracitygeeks.org" method="post" enctype="text/plain">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="name" class="form-control" id="name" placeholder="Your name" required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="myemail@domain.com" required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea class="form-control" rows="5" id="message" placeholder="Write me a love note..." required="true"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-default">Send It!</button>
-                </form>
-            </div>
-    </div>
-    <footer>
-        <hr><p class="text-center"> Written and coded by Geromy Cunningham</p>
-    </footer>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+	<div class="topnav" id="myTopnav">
+		<a class="active" href="#about">About</a> <a href="#portfolio">Portfolio</a> <a href="#contact">Contact</a> <a class="icon" href="javascript:void(0);" onclick="myFunction()" style="font-size:15px;">&#9776;</a>
+	</div><!--<nav class="container topnav text-center" id="myTopnav">-->
+	<!--    <a href="#about">About</a>-->
+	<!--    <a href="#portfolio">Portfolio</a>-->
+	<!--    <a href="#contact">Contact</a>-->
+	<!--</nav>-->
+	<div class="container-fluid" id="about">
+		<div class="row">
+			<div class="col-xs-8" id="aboutText">
+				<h2 class="animated rubberBand">Geromy Cunningham</h2>
+				<hr>
+				<div class="col-xs-4">
+					<img alt="A picture of Geromy Cunningham" class="img-responsive" id="aboutImg" src="https://pbs.twimg.com/profile_images/923487386876694529/v4oL2sO2_400x400.jpg">
+					<h3 class="text-center">Software and Web Developer. Hospitality Industry Manager. Video Game Enthusiest. @CareerDevs #SiliconRhode</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row social">
+				<ul>
+					<li>
+						<a href="https://www.linkedin.com/in/geromyc/" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/geromyc" target="_blank"><i aria-hidden="true" class="fa fa-github"></i></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/GeromyC" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/geromycunningham/" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div align="center" class="container-fluid" id="portfolio">
+		<h2 class="important">Portfolio</h2>
+		<div class="project">
+			<a href="https://github.com/geromyc/Project1-TributePage" target="_blank"><img class="placeholder" src="http://assets.nydailynews.com/polopoly_fs/1.2489331.1452205328!/img/httpImage/image.jpg_gen/derivatives/article_750/michael-jackson-estate.jpg"><br>
+			Michael Jackson Tribute Page.</a>
+		</div>
+		<div class="project">
+			<a href="https://github.com/geromyc/quoteGenerator"><img class="placeholder" src="http://www.facegarage.com/content/defaults/instagramQuotes.jpg"></a>
+		</div><br>
+		Random Quote Generator.
+		<div class="project"><img class="placeholder" src="http://via.placeholder.com/750x499"></div>
+		<div class="project"><img class="placeholder" src="http://via.placeholder.com/750x499"></div>
+		<div class="project"><img class="placeholder" src="http://via.placeholder.com/750x499"></div>
+	</div>
+	<div class="well" id="contact">
+		<h1 class="important">Contact</h1>
+		<div class="container-fluid">
+			<h2>Ask a question</h2>
+			<form action="mailto:geromycunningham@intracitygeeks.org" enctype="text/plain" method="post">
+				<div class="form-group">
+					<label for="name">Name:</label> <input class="form-control" id="name" placeholder="Your name" required="true" type="name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label> <input class="form-control" id="email" placeholder="myemail@domain.com" required="true" type="email">
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label> 
+					<textarea class="form-control" id="message" placeholder="Write me a love note..." required="true" rows="5"></textarea>
+				</div><button class="btn btn-default" type="submit">Send It!</button>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<hr>
+		<p class="text-center">Written and coded by Geromy Cunningham</p>
+	</footer>
+	<script>
+	       function myFunction() {
+	           var x = document.getElementById("myTopnav");
+	           if (x.className === "topnav") {
+	               x.className += " responsive";
+	           } else {
+	               x.className = "topnav";
+	           }
+	       }
+	</script> 
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+	</script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js">
+	</script>
+</body>
 </html>
